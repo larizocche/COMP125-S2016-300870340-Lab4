@@ -39,9 +39,7 @@
         return User;
     } ());
 
-
     function init() {
-        console.log("Application Started");
         var username = document.getElementById("username").value;
         var password = document.getElementById("pwd").value;
 
@@ -51,7 +49,6 @@
         console.log("Password: " + user._password);
     }
 
-
     var pwd = document.getElementById("pwd");
 
     var contactForm = document.getElementById("contactForm");
@@ -59,7 +56,6 @@
         event.preventDefault();
         init();
         contactForm.reset();
-
     });
 
 })();
